@@ -1,0 +1,51 @@
+# Keil 编译输出
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.htm
+*.dep
+*.d
+*.o
+*.obj
+*.crf
+*.lnp
+*.iex
+*.sct
+*.tra
+*.bak
+*.tmp
+
+# Keil 用户界面缓存和本地设置
+*.uvguix
+*.uvgui*
+*.uvgui.*
+
+# 常见编译目录
+**/Objects/
+**/Listings/
+**/Debug/
+**/Release/
+**/build/
+**/Build/
+
+# CubeMX、编辑器和系统临时文件
+*.log
+*.swp
+*.swo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 不把导出的压缩包或本地演示视频放进源码仓库
+*.zip
+*.7z
+*.rar
+*.mp4
+*.mov
+# Keil 列表文件和调试配置
+*.lst
+**/DebugConfig/
+**/RTE/Device/
